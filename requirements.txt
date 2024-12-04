@@ -2,7 +2,6 @@ pandas==2.1.3
 numpy==1.26.0
 seaborn
 matplotlib
-pickle
 scipy
 scikit-learn
 streamlit
