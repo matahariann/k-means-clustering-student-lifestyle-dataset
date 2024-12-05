@@ -56,6 +56,8 @@ if st.button('Predict Cluster'):
         cluster_label = '2'
     elif cluster_pred[0] == 2:
         cluster_label = '3'
+    elif cluster_pred[0] == 3:
+        cluster_label = '4'
 
     # Display the result to the user
     st.success(f'Predicted Cluster: {cluster_label}')
